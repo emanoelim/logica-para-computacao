@@ -13,13 +13,13 @@ fechada associado a ~H, então H não é uma tautologia.
 ### Exemplos
 a) Verificar se a fórmula (p -> q) v (p ^ ~q) é tautologia:
 
-![all text](https://github.com/emanoelim/LC21CP_2020_1/blob/master/16_arvores_correcao_completude/exemplo_1.png)
+![all text](https://github.com/emanoelim/logica_para_computacao/blob/master/16_arvores_correcao_completude/exemplo_1.png)
 
 Os dois ramos são fechados, então a fórmula é tautologia.
 
 b) Verificar se a fórmula ~(q -> (p ^ ~p)) é tautologia:
 
-![all text](https://github.com/emanoelim/LC21CP_2020_1/blob/master/16_arvores_correcao_completude/exemplo_2.png)
+![all text](https://github.com/emanoelim/logica_para_computacao/blob/master/16_arvores_correcao_completude/exemplo_2.png)
 
 Um ramo ficou aberto e um ramo ficou fechado, então a fórmula não é tautologia.
 
@@ -28,7 +28,7 @@ Um ramo ficou aberto e um ramo ficou fechado, então a fórmula não é tautolog
 
 Considere, por exemplo, a fórmula: p ^ (p -> q)
 
-![all text](https://github.com/emanoelim/LC21CP_2020_1/blob/master/16_arvores_correcao_completude/exemplo_3.png)
+![all text](https://github.com/emanoelim/logica_para_computacao/blob/master/16_arvores_correcao_completude/exemplo_3.png)
 
 Nenhum ramo fecha. Se a tabela-verdade da fórmula for construída:
 
