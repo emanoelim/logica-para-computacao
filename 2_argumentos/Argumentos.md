@@ -85,8 +85,9 @@ Conclusão: Você deveria ir para a faculdade.
 ```
 4. Se hoje estiver quente, então vou para a praia.
 ```diff
-Existe somente uma proposição composta. Não há conclusão. Essa proposição poderia ser transformada em um argumento se acompanhada de outras proposições. Por exemplo: "Se hoje estiver quente, então vou para a praia. Hoje está quente. Logo, 
-vou para a praia.", onde:
+Existe somente uma proposição composta. Não há conclusão. Essa proposição poderia ser transformada em um argumento 
+se acompanhada de outras proposições. Por exemplo: "Se hoje estiver quente, então vou para a praia. Hoje está quente. 
+Logo, vou para a praia.", onde:
 Premissa 1: Se hoje estiver quente, então vou para a praia. 
 Premissa 2: Hoje está quente. 
 Conclusão: Vou para a praia.
