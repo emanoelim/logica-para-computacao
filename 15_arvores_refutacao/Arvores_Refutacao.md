@@ -14,7 +14,7 @@ encontrar a contradição. Quando construimos uma árvore de refutação, ao cri
 
 ### Regras para árvores de refutação ou tableuax semânticos
 
-![all text](https://github.com/emanoelim/LC21CP_2020_1/blob/master/15_arvores_refutacao/regras_arvores.PNG)
+![all text](https://github.com/emanoelim/logica_para_computacao/blob/master/15_arvores_refutacao/regras_arvores.PNG)
 
 ### Definições
 - **Ramo fechado:** o ramo é fechado se ele contém uma fórmula e a sua negação, ou seja, uma contradição.
@@ -25,7 +25,7 @@ encontrar a contradição. Quando construimos uma árvore de refutação, ao cri
 
 a) Verificar se o argumento é válido: p ^ q ⊢ ~~p
 
-![all text](https://github.com/emanoelim/LC21CP_2020_1/blob/master/15_arvores_refutacao/exe_a.PNG)
+![all text](https://github.com/emanoelim/logica_para_computacao/blob/master/15_arvores_refutacao/exe_a.PNG)
 
 - A negação da conclusão ~~p entra como premissa na raíz da árvore.
 - Assim como na prova direta convém enumerar as linhas e indicar qual regra foi aplicada.
@@ -36,7 +36,7 @@ que o argumento é válido.
 
 b) Verificar se o argumento é válido: p v q, ~p ⊢ q
 
-![all text](https://github.com/emanoelim/LC21CP_2020_1/blob/master/15_arvores_refutacao/exe_b.PNG)
+![all text](https://github.com/emanoelim/logica_para_computacao/blob/master/15_arvores_refutacao/exe_b.PNG)
 
 - A negação da conclusão q entra como premissa na raíz da árvore.
 - Como as premissas ~p e ~q já são símbolos proposicionais negados, não é necessário aplicar regra sobre elas. Precisamos apenas desmembrar a premissa p v q.
@@ -44,7 +44,7 @@ b) Verificar se o argumento é válido: p v q, ~p ⊢ q
 
 c) Verificar se o argumento é válido: p v q, p ⊢ ~q
 
-![all text](https://github.com/emanoelim/LC21CP_2020_1/blob/master/15_arvores_refutacao/exe_c.PNG)
+![all text](https://github.com/emanoelim/logica_para_computacao/blob/master/15_arvores_refutacao/exe_c.PNG)
 
 - A negação da conclusão ~q entra como premissa na raíz da árvore.
 - Como as premissas p e q já são símbolos proposicionais, não é necessário aplicar regra sobre elas. Precisamos apenas desmembrar a premissa p v q.
@@ -52,7 +52,7 @@ c) Verificar se o argumento é válido: p v q, p ⊢ ~q
 
 d) Verificar se o argumento é válido: p -> q, q -> r, p ⊢ r
 
-![all text](https://github.com/emanoelim/LC21CP_2020_1/blob/master/15_arvores_refutacao/exe_d.PNG)
+![all text](https://github.com/emanoelim/logica_para_computacao/blob/master/15_arvores_refutacao/exe_d.PNG)
 
 - A negação da conclusão r entra como premissa na raíz da árvore.
 - Como as premissas p e ~r já são símbolos proposicionais ou negações de símbolos proposicionais, não é necessário aplicar regra sobre elas. Precisamos apenas desmembrar as premissas p -> q e q -> r.
@@ -62,7 +62,7 @@ d) Verificar se o argumento é válido: p -> q, q -> r, p ⊢ r
 
 e) Verificar se o argumento é válido: p <-> q, ~p ⊢ ~q
 
-![all text](https://github.com/emanoelim/LC21CP_2020_1/blob/master/15_arvores_refutacao/exe_e.PNG)
+![all text](https://github.com/emanoelim/logica_para_computacao/blob/master/15_arvores_refutacao/exe_e.PNG)
 
 - A negação da conclusão ~q entra como premissa na raíz da árvore.
 - Como a premissa ~p já é um símbolo proposicional, não é necessário aplicar regra sobre ela. Precisamos apenas desmembrar as premissas p <-> q e ~~q.
@@ -71,7 +71,7 @@ e) Verificar se o argumento é válido: p <-> q, ~p ⊢ ~q
 
 f) Verificar se o argumento é válido: ~(p ^ q) ⊢ ~p ^ ~q
 
-![all text](https://github.com/emanoelim/LC21CP_2020_1/blob/master/15_arvores_refutacao/exe_f.PNG)
+![all text](https://github.com/emanoelim/logica_para_computacao/blob/master/15_arvores_refutacao/exe_f.PNG)
 
 - A negação da conclusão ~p ^ ~q entra como premissa na raíz da árvore.
 - Após desmembrar a premissa ~(p ^ q) conseguimos obter dois símbolos proposicionais negados, mas ainda existe uma premissa que precisa ser desmembrada. Como os dois ramos existentes estão abertos, desmembramos a premissa nos dois ramos.
