@@ -116,5 +116,8 @@ _____________
 3) q        1, 2 - MP    
 ```
 
+## Referências
+- Daghlian, Jacob. **Lógica e Álgebra de Boole**. Editora Atlas. 4ª edição. 2009.
+
 
 
