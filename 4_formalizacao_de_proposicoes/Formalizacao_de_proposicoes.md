@@ -3,7 +3,7 @@
 Processo pelo qual convertemos proposições ou argumentos em fórmulas. A formalização de sentenças simples é fácil, basta atribuir à sentença um símbolo proposicional. Por exemplo:
 - Hoe está chovendo = p
 
-Para proposições compostas:
+Para proposições compostas, devemos quebrá-las nas proposições simples que as foram, atribuindo um símbolo proposicional para cada uma dessas proposições simples. Por exemplo:
 
 **a.** Proposição com conjunção: definimos uma letra para o 1º conjunto e outra para o 2º conjuncto. Por ex.: "hoje está chovendo e nevando".
 
